@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log In | Employee Management System</title>
+	<link rel="stylesheet" type="text/css" href="stylelogin.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<h1>Employee Management System</h1>
+			<ul id="navli">
+				<li><a class="homeblack" href="index.html">HOME</a></li>
+				<li><a class="homered" href="elogin.html">Employee Login</a></li>
+				<li><a class="homeblack" href="alogin.html">Admin Login</a></li>
+				
+			</ul>
+		</nav>
+	</header>
+	<div class="divider"></div>
+
+	<div class="loginbox">
+    <img src="assets/avatar.png" class="avatar">
+        <h1>Login Here</h1>
+        <form action="process/eprocess.php" method="POST">
+            <p>Email</p>
+            <input type="text" name="mailuid" placeholder="Enter Email Address" required="required">
+            <p>Password</p>
+            <input type="password" name="pwd" placeholder="Enter Password" required="required">
+            <input type="submit" name="login-submit" value="Login">
+           
+        </form>
+        
+    </div>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>	
+	<footer style="background-color: #333; color: #fff; padding: 40px; text-align: center;">
+		<div class="footer-content" style="display: flex; justify-content: space-around;">
+		  <div class="footer-section" style="flex-basis: 30%;">
+			<h3 style="font-size: 1.5em; margin-bottom: 15px;">Quick Links</h3>
+			<ul style="list-style: none; padding-left: 0;">
+			  <li><a href="#home" style="color: #fff; text-decoration: none; display: block; margin-bottom: 5px;">Home</a></li>
+			  <li><a href="#features" style="color: #fff; text-decoration: none; display: block; margin-bottom: 5px;">Features</a></li>
+			  <li><a href="#about" style="color: #fff; text-decoration: none; display: block; margin-bottom: 5px;">About Us</a></li>
+			  <li><a href="#contact" style="color: #fff; text-decoration: none; display: block;">Contact</a></li>
+			</ul>
+		  </div>
+		  <div class="footer-section" style="flex-basis: 30%;">
+			<h3 style="font-size: 1.5em; margin-bottom: 15px;">Services</h3>
+			<ul style="list-style: none; padding-left: 0;">
+			  <li>Employee Onboarding</li>
+			  <li>Performance Management</li>
+			  <li>Leave & Attendance</li>
+			  <li>Training & Development</li>
+			</ul>
+		  </div>
+		  <div class="footer-section" style="flex-basis: 30%;">
+			<h3 style="font-size: 1.5em; margin-bottom: 15px;">Follow Us</h3>
+			<div style="display: flex; justify-content: space-around;">
+			  <a href="#" style="color: #fff; text-decoration: none; display: inline-block; background-color: #3498db; width: 40px; height: 40px; border-radius: 50%; line-height: 40px; text-align: center;">F</a>
+			  <a href="#" style="color: #fff; text-decoration: none; display: inline-block; background-color: #e74c3c; width: 40px; height: 40px; border-radius: 50%; line-height: 40px; text-align: center;">G</a>
+			  <a href="#" style="color: #fff; text-decoration: none; display: inline-block; background-color: #1abc9c; width: 40px; height: 40px; border-radius: 50%; line-height: 40px; text-align: center;">I</a>
+			</div>
+		  </div>
+		</div>
+		<p style="font-size: 0.9em; margin-top: 30px;">&copy; 2024 Your Employee Management System. All rights reserved.</p>
+	  </footer>			
+</body>
+</html>
